@@ -1,10 +1,8 @@
-n = int(input())
-if n % 2 != 0:
-    print("Wired")
-else:
-    if n >= 2 and n <= 5:
-        print("Not Weird")
-    elif n >= 6 and n <= 20:
-        print("Weird")
-    elif n > 20:
-        print("Not Weird")
+print("Welcome to the Band Name Generator.")
+print("What's name of the city you grew up in?")
+
+city = input()
+print("What's your pet's name?")
+pet = input()
+
+print("Your band name could be " + city + " " + pet)
